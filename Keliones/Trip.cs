@@ -16,5 +16,10 @@ namespace Keliones
         public decimal Rating { get; set; }
         public decimal Price { get; set; }
 
+        public Trip()
+        {
+            Cities = new List<string>();
+        }
+
     }
 }

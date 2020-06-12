@@ -14,5 +14,10 @@ namespace Keliones
         public string Phone { get; set; }
         public List<Trip> UserTrips { get; set; }
         public string UserCountry { get; set; }
+
+        public User()
+        {
+            UserTrips = new List<Trip>();
+        }
     }
 }
