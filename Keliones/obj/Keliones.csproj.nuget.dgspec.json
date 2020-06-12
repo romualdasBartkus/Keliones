@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {}
+    "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {
+    "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
         "projectName": "Keliones",
-        "projectPath": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
-        "packagesPath": "C:\\Users\\oposisPC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oposisPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.113.1, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
