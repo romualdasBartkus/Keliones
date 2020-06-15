@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -32,8 +33,9 @@ namespace Keliones.Controllers
 
         // POST: api/User
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] User user)
         {
+            DbContext.InsertUser(user);
         }
 
         // PUT: api/User/5
@@ -42,10 +44,11 @@ namespace Keliones.Controllers
         {
         }
 
-        // DELETE: api/ApiWithActions/5
+        // DELETE: api/User/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            DbContext.DeleteUser(id);
         }
     }
 }
