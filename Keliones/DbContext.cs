@@ -218,7 +218,7 @@ namespace Keliones
         }
 
 
-        //Get Trip pagal id
+        //Get Trip pagal id 1.1
         public static Trip  GetTrip(int id)
         {
             SQLiteConnection con = new SQLiteConnection(@"Data Source=keliones.db");
