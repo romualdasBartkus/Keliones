@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {}
+    "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {
+    "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
+        "projectUniqueName": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
         "projectName": "Keliones",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Keliones\\Keliones\\obj\\",
+        "projectPath": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\Keliones.csproj",
+        "packagesPath": "C:\\Users\\oposisPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oposisPC\\Documents\\GitHub\\Keliones\\Keliones\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oposisPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
             "Microsoft.Data.Sqlite.Core": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             },
             "System.Data.SQLite": {
               "target": "Package",
@@ -69,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

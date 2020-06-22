@@ -216,5 +216,36 @@ namespace Keliones
             con.Dispose();
             return trips;
         }
+
+
+        //Get Trip pagal id
+        public static Trip  GetTrip(int id)
+        {
+            SQLiteConnection con = new SQLiteConnection(@"Data Source=keliones.db");
+            con.Open();
+            
+            string sql = $"SELECT * FROM Trip WHERE trip_id={id}";
+            
+            SQLiteCommand command = new SQLiteCommand(sql, con);
+            SQLiteDataReader reader = command.ExecuteReader();
+
+            Trip trip = new Trip();
+            while (reader.Read())
+            {
+                trip.ID = reader.GetInt32(reader.GetOrdinal("trip_id"));
+                trip.Name = reader.GetString(reader.GetOrdinal("name"));
+                trip.StartDate = reader.GetString(reader.GetOrdinal("start_date"));
+                trip.EndDate = reader.GetString(reader.GetOrdinal("end_date"));
+                trip.Country = reader.GetString(reader.GetOrdinal("country"));
+                trip.Price = reader.GetDecimal(reader.GetOrdinal("price"));
+                trip.Rating = reader.GetDecimal(reader.GetOrdinal("rating"));
+              
+            }
+            reader.Close();
+            con.Close();
+            con.Dispose();
+            return trip;
+         
+        }
     }
 }
