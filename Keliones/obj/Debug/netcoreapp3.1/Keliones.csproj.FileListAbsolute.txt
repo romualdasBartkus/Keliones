@@ -244,3 +244,4 @@ C:\Users\oposisPC\Documents\GitHub\Keliones\Keliones\obj\Debug\netcoreapp3.1\Kel
 C:\Users\oposisPC\Documents\GitHub\Keliones\Keliones\obj\Debug\netcoreapp3.1\staticwebassets\Keliones.StaticWebAssets.Manifest.cache
 C:\Users\oposisPC\Documents\GitHub\Keliones\Keliones\obj\Debug\netcoreapp3.1\staticwebassets\Keliones.StaticWebAssets.xml
 C:\Users\oposisPC\Documents\GitHub\Keliones\Keliones\obj\Debug\netcoreapp3.1\Keliones.genruntimeconfig.cache
+C:\Users\oposisPC\Documents\GitHub\Keliones\Keliones\obj\Debug\netcoreapp3.1\Keliones.csprojAssemblyReference.cache
